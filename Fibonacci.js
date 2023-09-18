@@ -13,3 +13,9 @@ function fibonacci(n){
     else
         return fibonacci(n-1) + fibonacci(n-2)
 }
+
+for(let i = 0; i < 50; i++){
+    console.log(fibonacci(i))
+}
+
+//WARNING high demand of resources
